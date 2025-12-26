@@ -12,22 +12,22 @@ Goal:
 
 2. Fixes and Modifications Made
 
-  A. Identified Permissions Issue
+    A. Identified Permissions Issue
   - Checked directory permissions:
     ls -ld /home/htb-ac-1948075/synced_backup
   - Determined the current user lacked write access to synced_backup/.
 
-  B. Fixed Permissions
+    B. Fixed Permissions
   - Allowed write access by running:
     sudo chmod u+w /home/htb-ac-1948075/synced_backup
 
 3. Running the Script
 
-  A. Made the Script Executable
+    A. Made the Script Executable
   - Ensured the script was runnable:
     sudo chmod +x /home/htb-ac-1948075/RSYNC_Backup.sh
   
-  B. Ran the Script Manually for Testing
+    B. Ran the Script Manually for Testing
   - Executed the script with:
     sudo bash /home/htb-ac-1948075/RSYNC_Backup.sh
   - Verified that:
