@@ -1,4 +1,4 @@
-_Notes: Fixing and Running rsync Backup Script via Cron on Linux (HTB Pwnbox)_
+# **Notes: Fixing and Running rsync Backup Script via Cron on Linux (HTB Pwnbox)**
 
 Goal:
 
