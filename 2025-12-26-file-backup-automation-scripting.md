@@ -42,7 +42,7 @@
     crontab -l
   
   - Add logging to track output (optional):
-    * * * * * /home/htb-ac-1948075/RSYNC_Backup.sh >> /home/htb-ac-1948075/cron.log 2>&1
+    \* \* \* \* \* /home/htb-ac-1948075/RSYNC_Backup.sh >> /home/htb-ac-1948075/cron.log 2>&1
 
 ### Conclusion
 
