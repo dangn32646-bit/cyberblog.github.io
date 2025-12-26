@@ -46,7 +46,7 @@
 
 ### Conclusion
 
-  #### Your rsync backup setup now:
+   Your rsync backup setup now:
 
   - Runs without errors
   - Handles permissions correctly
